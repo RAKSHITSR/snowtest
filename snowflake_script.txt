@@ -1,0 +1,13 @@
+-- Create a table
+CREATE OR REPLACE TABLE my_table (
+    id INTEGER,
+    name VARCHAR(50),
+    age INTEGER
+);
+
+-- Insert data into the table
+INSERT INTO my_table (id, name, age)
+VALUES 
+    (1, 'John Doe', 30),
+    (2, 'Jane Smith', 25),
+    (3, 'Michael Johnson', 40);
